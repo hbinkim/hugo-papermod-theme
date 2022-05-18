@@ -5,6 +5,7 @@ summary: about
 ShowToc: false
 disableShare: true
 ShowReadingTime: false
+comments: false
 description: "A brief introduction of myself"
 ---
 
