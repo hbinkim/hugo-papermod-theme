@@ -1,6 +1,7 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+	ignore = dirty
 [submodule "public"]
 	path = public
 	url = https://github.com/hbinkim/hbinkim.github.io.git
