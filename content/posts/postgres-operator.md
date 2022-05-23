@@ -3,8 +3,8 @@ title: "Postgres Operator"
 date: 2022-04-20T10:51:09+09:00
 draft: false
 showToc: false
-tags: ["Postgres", "Operator"]
-description: "오픈소스 Postgres Operator 소개글"
+tags: ["Postgres Operator", "K8s Operator"]
+description: "Comparing K8s operators for PostgreSQL: Zalando and Crunchy Data"
 ---
 
 Postgres 데이터베이스를 K8s 환경에서 배포하는 방법을 찾고 있다면 오픈소스로 공개된 Postgres Operator들을 고려해 볼 수 있다. Postgres 컨테이너 이미지를 기반으로 직접 배포해볼 수도 있지만, 오퍼레이터를 통해 여러 K8s 자원들의 배포 및 관리 자동화하여 operational cost를 줄일 수 있다. Zalando나 Crunchy Data사에서 제공하는 오퍼레이터는 failover 말고 라도 Connection Pool, 백업, 모니터링 등 다른 기능셋들도 제공하기 때문에 다른 Postgres Operator 비교 블로그 글에서도 추천의 대상으로 많이 꼽고 있다. 이번 블로그에서는 이 둘 오퍼레이터에 대해서 알아보고자 한다.
